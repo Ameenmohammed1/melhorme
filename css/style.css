@@ -147,6 +147,7 @@ flex-direction: column;
 
         .dcards .dcard{
             width: 99%;
+            padding: 20px 10px;
         }
 
         .doctors h1{
