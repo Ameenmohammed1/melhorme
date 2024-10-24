@@ -14,7 +14,7 @@ let data = [
         position: `Department of Homeopathy, BHMS`
     },
     {
-        img: './images/Prof/D3.jpg',
+        img: './images/Prof/shimna.png',
         name: "Mrs. Shimna Aneesh",
         position: `Dietician (MSc DFSM), 
                    Diabetic Educator,
