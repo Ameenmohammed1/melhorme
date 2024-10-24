@@ -4,31 +4,25 @@ let data = [
     {
         img: './images/Prof/athira.png',
         name: "Dr. ATHIRA .S",
-        position: `Dept of ayurveda
-                    B.A.M.S, PGDAC,
-                    Ayurveda cosmetologist`
-    },
-    {
-        img: './images/Prof/D2.jpg',
-        name: "Dr. Hredya Sharal",
-        position: `Department of Homeopathy, BHMS`
+        position: `Ayurveda Physician,Ayurveda Cosmetologist,
+                    B.A.M.S, PGDAC`
     },
     {
         img: './images/Prof/shimna.png',
         name: "Mrs. Shimna Aneesh",
-        position: `Dietician (MSc DFSM), 
-                   Diabetic Educator,
-                   Department of dietetics and clinical nutrition`
+        position: `Dietician (MSc DFSM)and 
+                   Diabetic Educator (MSc DFSM),
+                   `
     },
     {
-        img: './images/Prof/D4.jpg',
+        img: './images/Prof/riyas.png',
         name: "Psy. Riyas Rumi",
         position: `Career counsellor, Psychologist`
     },
     {
         img: './images/Prof/seethu.png',
         name: "Dr. Seethu tv",
-        position: `Dept of ayurveda BAMS, MSc(DFSM)`
+        position: `Ayurveda Physician BAMS, MSc(DFSM)`
     },
     {
         img: './images/Prof/abshad.png',
@@ -37,13 +31,13 @@ let data = [
     },
     {
         img: './images/Prof/anjana.jpg',
-        name: "Psy. Anjana",
-        position: `MBBS, DPM, Psychiatrist`
+        name: "Psy. Anjana Ragesh",
+        position: `Consultant psychologist, MSc Clinical and Counselling Psychology.`
     },
     {
         img: './images/Prof/sabeena.png',
         name: "Psy. Sabeena sajid",
-        position: `Consultant Pschologist ( geriatrics)`
+        position: `Consultant Pschologist (geriatrics)`
     },
     {
         img: './images/Prof/shincy.png',
@@ -53,14 +47,24 @@ let data = [
     {
         img: './images/Prof/sachin.png',
         name: "Dr. Sachin M",
-        position: `Consultant Psychiatrist
-MBBS, MD ( Psy) Ayurveda Physician and nutrition consultant`
+        position: `Consultant Psychiatrist MBBS, MD (Psy)`
     },
     {
         img: './images/Prof/shadha.png',
         name: "Psy. Shadha C K",
-        position: ` Consultant psychologist, MSc Clinical and Counselling Psychology.`
+        position: `Consultant psychologist, MSc Clinical and Counselling Psychology.`
     },
+    {
+        img: './images/Prof/shibila.jpg',
+        name: "Psy. Shibila Rejilesh",
+        position: `senior consultant psychologist , personal fitness trainer`
+    },
+    {
+        img: './images/Prof/D2.jpg',
+        name: "Dr. Hredya Sharal",
+        position: `Homeopathy Physician, BHMS`
+    },
+ 
   ];
   
 
