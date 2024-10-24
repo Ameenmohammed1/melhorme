@@ -60,9 +60,14 @@ let data = [
         position: `senior consultant psychologist , personal fitness trainer`
     },
     {
-        img: './images/Prof/D2.jpg',
+        img: './images/Prof/hredya.png',
         name: "Dr. Hredya Sharal",
         position: `Homeopathy Physician, BHMS`
+    },
+    {
+        img: './images/Prof/sheeja.png',
+        name: "Dr. Sheeja Viswanathan",
+        position: `Homeopathy physician, BHMS`
     },
  
   ];
