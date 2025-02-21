@@ -8,13 +8,6 @@ let data = [
                     B.A.M.S, PGDAC`
     },
     {
-        img: './images/Prof/shimna.png',
-        name: "Mrs. Shimna Aneesh",
-        position: `Dietician (MSc DFSM)and 
-                   Diabetic Educator (MSc DFSM),
-                   `
-    },
-    {
         img: './images/Prof/riyas.png',
         name: "Psy. Riyas Rumi",
         position: `Career counsellor, Psychologist`
