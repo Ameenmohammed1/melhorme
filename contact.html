@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - Shibila Rejilesh Consulting</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800">
+  <div class="max-w-3xl mx-auto px-6 py-12">
+    <h1 class="text-3xl font-bold mb-6">Contact Us</h1>
+    <p class="mb-6">We’re here to help you with any questions about our consulting sessions or appointment bookings. Feel free to get in touch using the form below or through our contact details.</p>
+
+    <!-- Success Popup -->
+    <div id="popup" class="hidden fixed top-4 right-4 bg-green-100 text-green-800 border border-green-300 px-4 py-3 rounded shadow z-50">
+      ✅ Your message has been sent successfully!
+    </div>
+
+    <div class="bg-white shadow rounded-lg p-6">
+      <form onsubmit="showPopup(event)" class="space-y-6">
+        <div>
+          <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+          <input type="text" id="name" name="name" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+          <input type="email" id="email" name="email" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"/>
+        </div>
+        <div>
+          <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+          <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border border-gray-300 rounded-md shadow-sm p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Send Message</button>
+      </form>
+    </div>
+
+    <div class="mt-10">
+      <h2 class="text-xl font-semibold mb-2">Contact Details</h2>
+      <p class="mb-1">Shibila Rejilesh Psychology Consulting</p>
+      <p class="mb-1">Thalassery, Kannur, Kerala</p>
+      <p class="mb-1">Phone: +91 996-133-9958</p>
+      <p>Email: melhorme218@gmail.com</p>
+    </div>
+  </div>
+
+  <!-- Inline JavaScript for Popup -->
+  <script>
+    function showPopup(event) {
+      event.preventDefault(); // prevent form from submitting
+      const popup = document.getElementById('popup');
+      popup.classList.remove('hidden');
+      setTimeout(() => {
+        popup.classList.add('hidden');
+      }, 4000); // hide after 4 seconds
+    }
+  </script>
+</body>
+</html>
