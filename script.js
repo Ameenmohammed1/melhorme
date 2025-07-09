@@ -72,7 +72,7 @@ function getDoctors(){
                         <img src="${obj.img}" class="dimg" alt="">
                         <p style="font-size: 1.4rem; font-weight: 900;">${obj.name}</p>
                         <p style="font-size: 0.9rem; text-align: center;">${obj.position}</p>
-                        <a href="https://wa.me/918891554450?text=Hello" class="dbutton">Book Appointment</a>
+                        <a href="https://user.melhorme.com/login" class="dbutton">Book Appointment</a>
                     </div>`;
         dcards.innerHTML += mards;  // use innerHTML to append the string
     });
